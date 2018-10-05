@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\xProgramGit\glPractice_2018_10\glLibs\assimp-4.1.0\contrib\irrXML\irrXML.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\xProgramGit\glPractice_2018_10\glLibs\assimp-4.1.0\contrib\irrXML\CXMLReaderImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\xProgramGit\glPractice_2018_10\glLibs\assimp-4.1.0\contrib\irrXML\heapsort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\xProgramGit\glPractice_2018_10\glLibs\assimp-4.1.0\contrib\irrXML\irrArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\xProgramGit\glPractice_2018_10\glLibs\assimp-4.1.0\contrib\irrXML\irrString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\xProgramGit\glPractice_2018_10\glLibs\assimp-4.1.0\contrib\irrXML\irrTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\xProgramGit\glPractice_2018_10\glLibs\assimp-4.1.0\contrib\irrXML\irrXML.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\xProgramGit\glPractice_2018_10\glLibs\assimp-4.1.0\contrib\irrXML\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{2ED37A48-FFEB-300E-929C-1440E2F92662}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E3D3A759-091A-397E-AB0E-1D3E9F67F1CF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

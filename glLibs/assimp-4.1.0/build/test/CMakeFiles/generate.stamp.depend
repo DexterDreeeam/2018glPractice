@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+D:/xProgramGit/glPractice_2018_10/glLibs/assimp-4.1.0/test/CMakeLists.txt
+D:/xSoftware/CMake/share/cmake-3.12/Modules/CTest.cmake
+D:/xSoftware/CMake/share/cmake-3.12/Modules/CTestTargets.cmake
+D:/xSoftware/CMake/share/cmake-3.12/Modules/CTestUseLaunchers.cmake
+D:/xSoftware/CMake/share/cmake-3.12/Modules/DartConfiguration.tcl.in

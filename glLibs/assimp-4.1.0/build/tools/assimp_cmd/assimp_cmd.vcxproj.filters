@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\xProgramGit\glPractice_2018_10\glLibs\assimp-4.1.0\tools\assimp_cmd\CompareDump.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\xProgramGit\glPractice_2018_10\glLibs\assimp-4.1.0\tools\assimp_cmd\ImageExtractor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\xProgramGit\glPractice_2018_10\glLibs\assimp-4.1.0\tools\assimp_cmd\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\xProgramGit\glPractice_2018_10\glLibs\assimp-4.1.0\tools\assimp_cmd\WriteDumb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\xProgramGit\glPractice_2018_10\glLibs\assimp-4.1.0\tools\assimp_cmd\Info.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\xProgramGit\glPractice_2018_10\glLibs\assimp-4.1.0\tools\assimp_cmd\Export.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\xProgramGit\glPractice_2018_10\glLibs\assimp-4.1.0\tools\assimp_cmd\Main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\xProgramGit\glPractice_2018_10\glLibs\assimp-4.1.0\tools\assimp_cmd\resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\xProgramGit\glPractice_2018_10\glLibs\assimp-4.1.0\tools\assimp_cmd\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D:\xProgramGit\glPractice_2018_10\glLibs\assimp-4.1.0\tools\assimp_cmd\assimp_cmd.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{2ED37A48-FFEB-300E-929C-1440E2F92662}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E3D3A759-091A-397E-AB0E-1D3E9F67F1CF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

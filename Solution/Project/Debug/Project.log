@@ -1,4 +1,10 @@
-﻿  init.cpp
-  main.cpp
-  正在生成代码...
-  Project.vcxproj -> D:\xProgramGit\glPractice_2018_10\Solution\Debug\Project.exe
+﻿  main.cpp
+d:\xprogramgit\glpractice_2018_10\solution\project\source\main.cpp(70): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+d:\xprogramgit\glpractice_2018_10\solution\project\source\main.cpp(118): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\xprogramgit\glpractice_2018_10\solution\project\source\main.cpp(119): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\xprogramgit\glpractice_2018_10\solution\project\source\main.cpp(122): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+d:\xprogramgit\glpractice_2018_10\solution\project\source\main.cpp(123): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+d:\xprogramgit\glpractice_2018_10\solution\project\source\main.cpp(124): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\xprogramgit\glpractice_2018_10\solution\project\source\main.cpp(125): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\xprogramgit\glpractice_2018_10\solution\project\source\main.cpp(130): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  Project.vcxproj -> D:\xProgramGit\glPractice_2018_10\Solution\Project\.\Project.exe

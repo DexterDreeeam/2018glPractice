@@ -1,0 +1,13 @@
+# CMake generation dependency list for this directory.
+D:/xProgramGit/glPractice_2018_10/glLibs/assimp-4.1.0/build/CMakeFiles/CheckTypeSize/OFF64_T.c
+D:/xProgramGit/glPractice_2018_10/glLibs/assimp-4.1.0/contrib/zlib/CMakeLists.txt
+D:/xProgramGit/glPractice_2018_10/glLibs/assimp-4.1.0/contrib/zlib/zconf.h.cmakein
+D:/xProgramGit/glPractice_2018_10/glLibs/assimp-4.1.0/contrib/zlib/zlib.pc.cmakein
+D:/xSoftware/CMake/share/cmake-3.12/Modules/CheckCSourceCompiles.cmake
+D:/xSoftware/CMake/share/cmake-3.12/Modules/CheckFunctionExists.c
+D:/xSoftware/CMake/share/cmake-3.12/Modules/CheckFunctionExists.cmake
+D:/xSoftware/CMake/share/cmake-3.12/Modules/CheckIncludeFile.c.in
+D:/xSoftware/CMake/share/cmake-3.12/Modules/CheckIncludeFile.cmake
+D:/xSoftware/CMake/share/cmake-3.12/Modules/CheckIncludeFileCXX.cmake
+D:/xSoftware/CMake/share/cmake-3.12/Modules/CheckTypeSize.c.in
+D:/xSoftware/CMake/share/cmake-3.12/Modules/CheckTypeSize.cmake

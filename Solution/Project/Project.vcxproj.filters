@@ -18,12 +18,18 @@
     <ClCompile Include="source\main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="source\init.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="include\Common.h">
+    <ClInclude Include="include\Mesh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Shader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Camera.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Model.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

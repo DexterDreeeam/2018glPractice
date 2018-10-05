@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+D:/xProgramGit/glPractice_2018_10/glLibs/assimp-4.1.0/cmake-modules/FindRT.cmake
+D:/xProgramGit/glPractice_2018_10/glLibs/assimp-4.1.0/code/CMakeLists.txt
+D:/xSoftware/CMake/share/cmake-3.12/Modules/FindPackageHandleStandardArgs.cmake
+D:/xSoftware/CMake/share/cmake-3.12/Modules/FindPackageMessage.cmake
