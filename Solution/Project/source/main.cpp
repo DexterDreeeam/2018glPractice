@@ -13,6 +13,7 @@
 
 #include <iostream>
 #include <string>
+#include <stdio.h>
 
 void framebuffer_size_callback(GLFWwindow * window, int width, int height);
 void mouse_callback(GLFWwindow * window, double xpos, double ypos);
@@ -39,13 +40,14 @@ int main() {
     glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
     #endif
     ///glfw window creation
-    GLFWwindow * window = glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT, "xGL", NULL, NULL);
+    GLFWwindow * window = glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT, "Loading", NULL, NULL);
     if(!window){
         std::cout << "Failed to create GLFW window" << std::endl;
         glfwTerminate();
         return -1;
     }
     glfwMakeContextCurrent(window);
+    ///setCallback
     glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
     glfwSetCursorPosCallback(window, mouse_callback);
     glfwSetScrollCallback(window, scroll_callback);
@@ -59,8 +61,10 @@ int main() {
     }
     ///configure global openGL state
     glEnable(GL_DEPTH_TEST);
+    glEnable(GL_STENCIL_TEST);
     ///build & compile shaders
     Shader ourShader("shader/modelVS.vs", "shader/modelFS.fs");
+    Shader ourBoaderShader("shader/modelVS.vs", "shader/modelSingleColorFS.fs");
     ///load model
     Model ourModel(std::string("nanosuit/nanosuit.obj"));
     ///draw in wireframe
@@ -73,10 +77,31 @@ int main() {
         ///input
         processInput(window);
         ///render
-        glClearColor(0.05f, 0.05f, 0.05f, 1.0f);
-        glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+        glClearColor(0.05f, 0.55f, 0.35f, 1.0f);
+        glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT | GL_STENCIL_BUFFER_BIT);
         ///enable shader [befor setting uniforms]
         ourShader.use();
+        struct{
+            glm::vec3 direction;
+            glm::vec3 color;
+        }directionLight = { {1.0f, -1.0f, -1.0f}, {1.0f, 1.0f, 1.0f} };
+        struct{
+            glm::vec3 position;
+            glm::vec3 color;
+            float constant;
+            float linear;
+            float quadratic;
+        }pointLight = { {2.0f, 2.0f, 2.0f}, {1.0f, 1.0f, 1.0f}, 1.0f, 0.09f, 0.032f };
+        ourShader.setVec3("uniPointLight.position", pointLight.position);
+        ourShader.setVec3("uniPointLight.color", pointLight.color);
+        ourShader.setFloat("uniPointLight.constant", pointLight.constant);
+        ourShader.setFloat("uniPointLight.linear", pointLight.linear);
+        ourShader.setFloat("uniPointLight.quadratic", pointLight.quadratic);
+        ourShader.setVec3("uniDirectionLight.direction", directionLight.direction);
+        ourShader.setVec3("uniDirectionLight.color", directionLight.color);
+        //glUniform1fv(glGetUniformLocation(ourShader.ID, "uniDirectionLight"), sizeof(directionLight) / 4, (float *)&directionLight);
+        //glUniform1fv(glGetUniformLocation(ourShader.ID, "uniPointLight"), sizeof(pointLight) / 4, (float *)&pointLight);
+        ourShader.setVec3("viewPos", camera.Position);
         ///view & projection transformations
         glm::mat4 projection = glm::perspective(glm::radians(camera.Zoom), (float)SCR_WIDTH / (float)SCR_HEIGHT, 0.1f, 100.0f);
         glm::mat4 view = camera.GetViewMatrix();
@@ -87,9 +112,29 @@ int main() {
         model = glm::translate(model, glm::vec3(0.0f, -1.75f, 0.0f));
         model = glm::scale(model, glm::vec3(0.2f, 0.2f, 0.2f));
         ourShader.setMat4("model", model);
+        ///set stencil test
+        glStencilFunc(GL_ALWAYS, 1, 0xff);
+        glStencilOp(GL_KEEP, GL_KEEP, GL_REPLACE);
+        glStencilMask(0xff);
+        ourModel.Draw(ourShader);
+        ///set stencil to draw edge
+        ourBoaderShader.use();
+        ourBoaderShader.setMat4("projection", projection);
+        ourBoaderShader.setMat4("view", view);
+        model = glm::scale(model, glm::vec3(1.003f, 1.003f, 1.003f));
+        ourShader.setMat4("model", model);
+        glStencilFunc(GL_NOTEQUAL, 1, 0xff);
         ourModel.Draw(ourShader);
         ///glfw swap buffers and poll io events
         glfwSwapBuffers(window);
+        static double sumTime = 0.0;
+        static int count = 0;
+        sumTime += deltaTime;
+        if (++count == 10) {
+            glfwSetWindowTitle(window, ("FPS " + std::to_string(int(10.0 / (sumTime)))).c_str());
+            sumTime = 0;
+            count = 0;
+        }
         glfwPollEvents();
     }
     glfwTerminate();
@@ -120,7 +165,9 @@ void mouse_callback(GLFWwindow * window, double xpos, double ypos){
         firstMouse = false;
     }
     float xoffset = xpos - lastX;
+    xoffset *= 0.5f;
     float yoffset = lastY - ypos;
+    yoffset *= 0.5f;
     lastX = xpos;
     lastY = ypos;
     camera.ProcessMouseMovement(xoffset, yoffset);

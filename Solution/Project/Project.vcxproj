@@ -130,6 +130,11 @@
     <ClInclude Include="include\Model.h" />
     <ClInclude Include="include\Shader.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="shader\modelFS.fs" />
+    <None Include="shader\modelSingleColorFS.fs" />
+    <None Include="shader\modelVS.vs" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

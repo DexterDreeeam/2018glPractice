@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="shader">
+      <UniqueIdentifier>{11bf5729-6b00-46e6-8798-0a2270552f85}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source\main.cpp">
@@ -32,5 +35,16 @@
     <ClInclude Include="include\Model.h">
       <Filter>头文件</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shader\modelFS.fs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\modelVS.vs">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\modelSingleColorFS.fs">
+      <Filter>shader</Filter>
+    </None>
   </ItemGroup>
 </Project>
