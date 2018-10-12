@@ -1,0 +1,11 @@
+﻿  main.cpp
+d:\xprogramgit\glpractice_2018_10\solution3_geometryshader\project\source\main.cpp(72): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+d:\xprogramgit\glpractice_2018_10\solution3_geometryshader\project\source\main.cpp(113): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+d:\xprogramgit\glpractice_2018_10\solution3_geometryshader\project\source\main.cpp(150): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\xprogramgit\glpractice_2018_10\solution3_geometryshader\project\source\main.cpp(151): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\xprogramgit\glpractice_2018_10\solution3_geometryshader\project\source\main.cpp(154): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+d:\xprogramgit\glpractice_2018_10\solution3_geometryshader\project\source\main.cpp(156): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+d:\xprogramgit\glpractice_2018_10\solution3_geometryshader\project\source\main.cpp(158): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\xprogramgit\glpractice_2018_10\solution3_geometryshader\project\source\main.cpp(159): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\xprogramgit\glpractice_2018_10\solution3_geometryshader\project\source\main.cpp(164): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  Project.vcxproj -> D:\xProgramGit\glPractice_2018_10\Solution3_GeometryShader\Project\.\Project.exe
