@@ -1,0 +1,12 @@
+﻿  main.cpp
+d:\xprogramgit\glpractice_2018_10\solution4_asteroid\project\source\main.cpp(76): warning C4244: “参数”: 从“double”转换到“unsigned int”，可能丢失数据
+d:\xprogramgit\glpractice_2018_10\solution4_asteroid\project\source\main.cpp(95): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+d:\xprogramgit\glpractice_2018_10\solution4_asteroid\project\source\main.cpp(130): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+d:\xprogramgit\glpractice_2018_10\solution4_asteroid\project\source\main.cpp(201): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\xprogramgit\glpractice_2018_10\solution4_asteroid\project\source\main.cpp(202): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\xprogramgit\glpractice_2018_10\solution4_asteroid\project\source\main.cpp(205): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+d:\xprogramgit\glpractice_2018_10\solution4_asteroid\project\source\main.cpp(207): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+d:\xprogramgit\glpractice_2018_10\solution4_asteroid\project\source\main.cpp(209): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\xprogramgit\glpractice_2018_10\solution4_asteroid\project\source\main.cpp(210): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\xprogramgit\glpractice_2018_10\solution4_asteroid\project\source\main.cpp(215): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  Project.vcxproj -> D:\xProgramGit\glPractice_2018_10\Solution4_Asteroid\Project\.\Project.exe
