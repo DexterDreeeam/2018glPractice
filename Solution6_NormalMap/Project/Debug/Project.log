@@ -1,0 +1,10 @@
+﻿  main.cpp
+d:\xprogramgit\glpractice_2018_10\solution6_normalmap\project\source\main.cpp(165): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+d:\xprogramgit\glpractice_2018_10\solution6_normalmap\project\source\main.cpp(230): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\xprogramgit\glpractice_2018_10\solution6_normalmap\project\source\main.cpp(231): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\xprogramgit\glpractice_2018_10\solution6_normalmap\project\source\main.cpp(234): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+d:\xprogramgit\glpractice_2018_10\solution6_normalmap\project\source\main.cpp(236): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+d:\xprogramgit\glpractice_2018_10\solution6_normalmap\project\source\main.cpp(238): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\xprogramgit\glpractice_2018_10\solution6_normalmap\project\source\main.cpp(239): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\xprogramgit\glpractice_2018_10\solution6_normalmap\project\source\main.cpp(244): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  Project.vcxproj -> D:\xProgramGit\glPractice_2018_10\Solution6_NormalMap\Project\.\Project.exe

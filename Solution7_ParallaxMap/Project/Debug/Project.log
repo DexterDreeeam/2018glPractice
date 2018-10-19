@@ -1,0 +1,10 @@
+﻿  main.cpp
+d:\xprogramgit\glpractice_2018_10\solution7_parallaxmap\project\source\main.cpp(187): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+d:\xprogramgit\glpractice_2018_10\solution7_parallaxmap\project\source\main.cpp(249): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\xprogramgit\glpractice_2018_10\solution7_parallaxmap\project\source\main.cpp(250): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\xprogramgit\glpractice_2018_10\solution7_parallaxmap\project\source\main.cpp(253): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+d:\xprogramgit\glpractice_2018_10\solution7_parallaxmap\project\source\main.cpp(255): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+d:\xprogramgit\glpractice_2018_10\solution7_parallaxmap\project\source\main.cpp(257): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\xprogramgit\glpractice_2018_10\solution7_parallaxmap\project\source\main.cpp(258): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\xprogramgit\glpractice_2018_10\solution7_parallaxmap\project\source\main.cpp(263): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  Project.vcxproj -> D:\xProgramGit\glPractice_2018_10\Solution7_ParallaxMap\Project\.\Project.exe
