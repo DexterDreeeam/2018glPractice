@@ -1,0 +1,10 @@
+﻿  main.cpp
+d:\xprogramgit\glpractice_2018_10\solution8_hdr\project\source\main.cpp(200): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+d:\xprogramgit\glpractice_2018_10\solution8_hdr\project\source\main.cpp(299): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\xprogramgit\glpractice_2018_10\solution8_hdr\project\source\main.cpp(300): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\xprogramgit\glpractice_2018_10\solution8_hdr\project\source\main.cpp(303): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+d:\xprogramgit\glpractice_2018_10\solution8_hdr\project\source\main.cpp(305): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+d:\xprogramgit\glpractice_2018_10\solution8_hdr\project\source\main.cpp(307): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\xprogramgit\glpractice_2018_10\solution8_hdr\project\source\main.cpp(308): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\xprogramgit\glpractice_2018_10\solution8_hdr\project\source\main.cpp(313): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  Project.vcxproj -> D:\xProgramGit\glPractice_2018_10\Solution8_HDR\Project\.\Project.exe
