@@ -1,0 +1,10 @@
+﻿  main.cpp
+d:\xprogramgit\glpractice_2018_10\solution9_bloom&mrt\project\source\main.cpp(149): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+d:\xprogramgit\glpractice_2018_10\solution9_bloom&mrt\project\source\main.cpp(303): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\xprogramgit\glpractice_2018_10\solution9_bloom&mrt\project\source\main.cpp(304): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\xprogramgit\glpractice_2018_10\solution9_bloom&mrt\project\source\main.cpp(307): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+d:\xprogramgit\glpractice_2018_10\solution9_bloom&mrt\project\source\main.cpp(309): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+d:\xprogramgit\glpractice_2018_10\solution9_bloom&mrt\project\source\main.cpp(311): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\xprogramgit\glpractice_2018_10\solution9_bloom&mrt\project\source\main.cpp(312): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\xprogramgit\glpractice_2018_10\solution9_bloom&mrt\project\source\main.cpp(317): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  Project.vcxproj -> D:\xProgramGit\glPractice_2018_10\Solution9_Bloom&MRT\Project\.\Project.exe
