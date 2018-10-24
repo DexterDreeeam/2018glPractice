@@ -193,6 +193,8 @@ int main() {
         pass4Shader_lighting.setInt("g_blur", 3);
     ///draw in wireframe
     //glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
+    ///close vertical-sync
+    //glfwSwapInterval(0);
     ///render loop
     while(!glfwWindowShouldClose(window)){
         float currentFrame = glfwGetTime();
