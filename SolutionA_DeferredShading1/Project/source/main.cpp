@@ -202,7 +202,7 @@ int main() {
         //glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
         //debugShader.use();
         //    glActiveTexture(GL_TEXTURE0);
-        //    glBindTexture(GL_TEXTURE_2D, colorBuffers[1]);
+        //    glBindTexture(GL_TEXTURE_2D, g_position_buffer);
         //    renderQuad();
         ///glfw swap buffers and poll io events
         glfwSwapBuffers(window);
