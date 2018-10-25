@@ -102,6 +102,7 @@ private:
             else
                 vertex.TexCoords = glm::vec2(0.0f, 0.0f);
             ///tangent
+            if(mesh->mTangents)
             vector.x = mesh->mTangents[i].x;
             vector.y = mesh->mTangents[i].y;
             vector.z = mesh->mTangents[i].z;

@@ -1,0 +1,30 @@
+newmtl guCJ:grassClump1ShaderSG
+illum 4
+Kd 0.28 0.28 0.15
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.28 0.30 0.24
+Ns 28.00
+newmtl guCJ:grassClump2ShaderSG
+illum 4
+Kd 0.28 0.28 0.15
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.28 0.30 0.24
+Ns 28.00
+newmtl guCJ:grassClump3ShaderSG
+illum 4
+Kd 0.28 0.28 0.15
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.28 0.30 0.24
+Ns 28.00
+newmtl initialShadingGroup
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00

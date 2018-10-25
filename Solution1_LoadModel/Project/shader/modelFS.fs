@@ -20,13 +20,19 @@ struct pointLight{
 };
 
 uniform sampler2D texture_diffuse1;
+
+uniform sampler2D texture_specular1;
+uniform sampler2D texture_normal1;
+
 uniform directionLight uniDirectionLight;
 uniform pointLight uniPointLight;
 uniform vec3 viewPos;
 
 void main()
 {
-    vec3 normalDir = normalize(Normal);
+    //vec3 normalDir = normalize(Normal);
+    vec3 normalDir = normalize(texture(texture_normal1, TexCoords).rgb);
+
     vec3 viewDir = normalize(viewPos - FragPos);
     vec3 pointLightDir = normalize(uniPointLight.position - FragPos);
     vec3 directionLightDir = normalize(-uniDirectionLight.direction);
@@ -43,5 +49,5 @@ void main()
     ///calculate color
     vec4 objRawColor = texture(texture_diffuse1, TexCoords);
     FragColor = objRawColor * (0.05 + pointLightDiffuse + directionLightDiffuse) + 
-        (objRawColor + 0.2 * vec4(1.0, 1.0, 1.0, 1.0)) * (0.6 * (pointLightSpecular + directionLightSpecular));
+        /*(objRawColor + 0.2 * vec4(1.0, 1.0, 1.0, 1.0))*/vec4(texture(texture_specular1, TexCoords).rrr, 1.0f) * (0.6 * (pointLightSpecular + directionLightSpecular));
 }

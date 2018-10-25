@@ -1,0 +1,10 @@
+﻿  main.cpp
+d:\xprogramgit\glpractice_2018_10\solutiond_volumelight\project\source\main.cpp(135): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+d:\xprogramgit\glpractice_2018_10\solutiond_volumelight\project\source\main.cpp(234): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\xprogramgit\glpractice_2018_10\solutiond_volumelight\project\source\main.cpp(235): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\xprogramgit\glpractice_2018_10\solutiond_volumelight\project\source\main.cpp(238): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+d:\xprogramgit\glpractice_2018_10\solutiond_volumelight\project\source\main.cpp(240): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+d:\xprogramgit\glpractice_2018_10\solutiond_volumelight\project\source\main.cpp(242): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\xprogramgit\glpractice_2018_10\solutiond_volumelight\project\source\main.cpp(243): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\xprogramgit\glpractice_2018_10\solutiond_volumelight\project\source\main.cpp(248): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  Project.vcxproj -> D:\xProgramGit\glPractice_2018_10\SolutionD_VolumeLight\Project\.\Project.exe
