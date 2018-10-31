@@ -1,2 +1,4 @@
+.gitignore
+SolutionB_DeferredShading2/.vs/Solution/v15/.suo
+SolutionB_DeferredShading2/.vs/Solution/v15/Browse.VC.db
 SolutionB_DeferredShading2/.vs/*
-.vs
